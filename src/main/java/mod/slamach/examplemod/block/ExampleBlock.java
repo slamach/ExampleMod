@@ -6,6 +6,8 @@ import net.minecraft.block.material.Material;
 
 
 public class ExampleBlock extends Block {
+    public static final String BLOCKID = "exampleblock";
+
     public ExampleBlock() {
         super(Properties.create(Material.ROCK)
             .sound(SoundType.STONE)

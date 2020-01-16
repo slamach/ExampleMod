@@ -18,7 +18,7 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-            setup(new ExampleItem(), "exampleitem"),
+            setup(new ExampleItem(), ExampleItem.ITEMID),
             setup(new BlockItem(ModBlocks.EXAMPLEBLOCK, new Item.Properties().group(ItemGroup.MISC)), "exampleblock")
         );
     }
@@ -26,7 +26,7 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().registerAll(
-	        setup(new ExampleBlock(), "exampleblock")
+	        setup(new ExampleBlock(), ExampleBlock.BLOCKID)
         );
     }
     

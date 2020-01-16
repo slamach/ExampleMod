@@ -5,9 +5,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /*
-    TODO: Set item/block ID somewhere
     TODO: Get nice BlockItem properties
-    TODO: Get nice ExamokeBlock texture properties
+    TODO: Get nice ExampleBlock texture properties
 */
 
 @Mod(ExampleMod.MODID)
