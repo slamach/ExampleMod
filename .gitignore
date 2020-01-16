@@ -1,0 +1,14 @@
+# vscode
+bin
+.vscode
+.project
+
+# gradle
+build
+.gradle
+
+# other
+run
+
+# Files from Forge MDK
+forge*changelog.txt
