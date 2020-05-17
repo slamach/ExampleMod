@@ -1,2 +1,2 @@
 # ExampleMod
-Just trying to develop my first minecraft mod.
+Example project for minecraft modding learning :school_satchel:
